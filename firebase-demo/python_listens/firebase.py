@@ -3,7 +3,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 
 # Initialize Firebase
-cred = credentials.Certificate("/home/roner1/node_pi/firebase-demo/pi-demo2-firebase-adminsdk-ma4np-37bfb96940.json")
+cred = credentials.Certificate('E:\Node-Python-firebase\proj1-443a3-firebase-adminsdk-niwik-8bfde77aa3.json')
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
